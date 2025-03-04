@@ -1116,6 +1116,13 @@ section,
   position: relative;
 }
 
+.portfolio-item img {
+  width: 100%; /* Make images fill their container */
+  height: 250px; /* Set a fixed height */
+  object-fit: cover; /* Crop images to fit the dimensions */
+}
+
+
 .portfolio .portfolio-item .portfolio-info {
   background-color: color-mix(in srgb, var(--surface-color), transparent 10%);
   opacity: 0;
